@@ -8,7 +8,7 @@ code quality and consistent commit messages.
 
 ## 🚀 Tech Stack
 
--   Nuxt 3
+-   Nuxt 4
 -   Vue 3
 -   ESLint
 -   Prettier
