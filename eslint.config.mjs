@@ -7,7 +7,7 @@ export default withNuxt(
   // Your custom configs here
   {
     files: ['**/*.js', '**/*.ts', '**/*.vue'],
-    rules: {
+rules: {
       // Possible Errors
       'no-console': 'warn', // Warn on console.log usage
       'no-debugger': 'warn', // Warn on debugger statements
@@ -16,12 +16,6 @@ export default withNuxt(
       'eqeqeq': ['error', 'always'], // Require === and !==
       'no-var': 'error', // Require let or const instead of var
       'prefer-const': 'error', // Prefer const for variables that are never reassigned
-      
-      // Stylistic
-      'quotes': ['error', 'single'], // Use single quotes
-      'semi': ['error', 'never'], // No semicolons (common in Nuxt)
-      'comma-dangle': ['error', 'always-multiline'], // Trailing commas
-      'indent': ['error', 2], // 2 space indentation
       
       // Vue specific (if using @nuxtjs/eslint-config)
       'vue/multi-word-component-names': 'off', // Allow single word component names
