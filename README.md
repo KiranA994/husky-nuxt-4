@@ -1,6 +1,6 @@
 # Nuxt 4 App with Husky & Commitlint
 
-This project is a **Nuxt 3** application configured with **Husky**,
+This project is a **Nuxt 4** application configured with **Husky**,
 **lint-staged**, **ESLint**, **Prettier**, and **Commitlint** to enforce
 code quality and consistent commit messages.
 
